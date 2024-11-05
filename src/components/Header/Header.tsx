@@ -1,7 +1,6 @@
-// src/components/Header.tsx
 import { Box, Typography } from "@mui/material";
 import NavBar from "../Navbar/NavBar";
-import classes from "Header.module.css";
+import classes from "./Header.module.css";
 
 export default function Header() {
   return (
