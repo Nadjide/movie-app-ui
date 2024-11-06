@@ -4,8 +4,9 @@ import classes from "./Header.module.css";
 import LanguageSelector from "./LanguageSelector";
 import { useTranslation } from "react-i18next";
 import { i18nMap } from "../../i18n/map";
-export default function Header() {
 
+
+export default function Header() {
     const { t } = useTranslation();
     return (
         <Box className={classes.root}>
